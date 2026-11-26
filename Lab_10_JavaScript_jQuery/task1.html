@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Task 1 - Student Information</title>
+</head>
+<body>
+  <h1>Student Information</h1>
+  <div id="info"></div>
+
+  <script>
+    // 1 & 2. Declare variables and assign values
+    var studentName = "Khushnood Fatima";
+    var rollNumber = "2601626";
+    var department = "Computer Science";
+    var semester = "1st Semester";
+
+    // 3 & 4. Display using innerHTML with headings and paragraphs
+    document.getElementById("info").innerHTML =
+      "<h2>" + studentName + "</h2>" +
+      "<p><b>Roll Number:</b> " + rollNumber + "</p>" +
+      "<p><b>Department:</b> " + department + "</p>" +
+      "<p><b>Semester:</b> " + semester + "</p>";
+  </script>
+</body>
+</html>
